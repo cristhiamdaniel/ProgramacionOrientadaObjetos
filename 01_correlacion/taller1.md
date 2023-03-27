@@ -1,7 +1,8 @@
-# Programacion Orientada a Objetos en Java - Taller 01
-## Calculo de la matriz de correlacion
+# Programación Orientada a Objetos en Java - Taller 01
 
-**Introduccion**:
+## Cálculo de la matriz de correlación
+
+**Introducción**:
 
 La matriz de correlación es importante porque nos permite entender la relación entre diferentes variables. La correlación es una medida estadística que indica la fuerza y la dirección de una relación lineal entre dos variables. Un valor de correlación cercano a 1 indica una relación positiva fuerte entre las variables, mientras que un valor cercano a -1 indica una relación negativa fuerte. Un valor cercano a 0 indica que no hay una relación lineal fuerte entre las variables.
 
@@ -13,8 +14,8 @@ Además, la matriz de correlación es importante en muchos campos de estudio, co
 
 **Ciencia de datos**
 
-Supongamos que tienes los siguientes datos (en forma de matriz) de tres variables, que corresponden a la altura, el peso y la edad de un grupo de personas. 
-Se calcula la correlacion entre las variables para determinar si hay alguna relacion entre ellas.
+Supongamos que tienes los siguientes datos (en forma de matriz) de tres variables, que corresponden a la altura, el peso y la edad de un grupo de personas.
+Se calcula la correlación entre las variables para determinar si hay alguna relación entre ellas.
 
 **Datos de entrada**
 
@@ -44,12 +45,17 @@ O en consola:
 [0.9979867728837594, 1.0, 0.9955658026302768]
 [0.996128156475504, 0.9955658026302768, 1.0]
 ```
-**Interpretacion**
 
-De acuerdo a la matriz resultante, se puede observar que las variables altura y peso tienen una correlacion mayor comparada con la variable edad. Esto quiere decir que las variables altura y peso estan mas relacionadas entre si que la variable edad. Por lo tanto, se puede concluir que la variable edad no tiene una relacion directa con las variables altura y peso.
+**Interpretación**
+
+De acuerdo a la matriz resultante, se puede observar que las variables altura y peso tienen una correlación mayor comparada con la variable edad. Esto quiere decir que las variables altura y peso están mas relacionadas entre si que la variable edad. Por lo tanto, se puede concluir que la variable edad no tiene una relación directa con las variables altura y peso.
 
 ### Diagrama de clases
 
-Para crear la clase ```DatosPersonas``` se debe tener en cuenta que esta clase debe tener los siguientes atributos y metodos:
+Para crear la clase ```DatosPersonas``` se debe tener en cuenta que esta clase debe tener los siguientes atributos y métodos:
 
 ![Diagrama de clases](DatosPersonas.png)
+
+### Entregable
+
+Dos archivos en java: ```DatosPersonas.java``` y ```Main.java``` que contengan la solución al problema planteado.
